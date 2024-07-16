@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="" />
+    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="fix add products in the cart test">
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="add-products-in-the-cart-test" />
+                    <option name="lastUsedInstant" value="1721138231" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1721138230" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -36,21 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/purpleRain/IdeaProjects/prueba-tecnica-demoblaze/src/main/java/com/demoblaze/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "add-products-in-the-cart-test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/purpleRain/IdeaProjects/prueba-tecnica-demoblaze/src/main/java/com/demoblaze/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\purpleRain\IdeaProjects\prueba-tecnica-demoblaze\src\test\resources\features" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Scenario: Add a product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -96,6 +133,7 @@
       <updated>1721135235639</updated>
       <workItem from="1721135236395" duration="1042000" />
       <workItem from="1721136309351" duration="1708000" />
+      <workItem from="1721138058505" duration="7646000" />
     </task>
     <task id="LOCAL-00001" summary="Add proyect configuration">
       <option name="closed" value="true" />
@@ -113,7 +151,39 @@
       <option name="project" value="LOCAL" />
       <updated>1721137668521</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add files">
+      <option name="closed" value="true" />
+      <created>1721138099292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721138099292</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add products in the cart test">
+      <option name="closed" value="true" />
+      <created>1721141668959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721141668959</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finished add products in the cart test">
+      <option name="closed" value="true" />
+      <created>1721143004087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721143004087</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix add products in the cart test">
+      <option name="closed" value="true" />
+      <created>1721143432742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721143432742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +203,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add proyect configuration" />
     <MESSAGE value="working test add product" />
-    <option name="LAST_COMMIT_MESSAGE" value="working test add product" />
+    <MESSAGE value="Add files" />
+    <MESSAGE value="Add products in the cart test" />
+    <MESSAGE value="finished add products in the cart test" />
+    <MESSAGE value="fix add products in the cart test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix add products in the cart test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
