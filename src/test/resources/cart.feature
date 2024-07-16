@@ -2,7 +2,7 @@
 Feature: Cart Operations
   Scenario Outline: Add a product
     Given that "user" has opened the store
-    When he select the product from the section
+    When he select the product from section
       | categories      | product        |
       | <user_category> | <user_product> |
     And he adds the product to the cart with

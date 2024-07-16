@@ -42,5 +42,4 @@ public class CartStepDefinitions {
     public void thenHeShouldSeeTheAddedProductInTheCart(){
         theActorInTheSpotlight().should(seeThat(ProductWas.Added()));
     }
-
 }
