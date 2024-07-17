@@ -3,7 +3,6 @@ package com.demoblaze.tasks;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
@@ -26,15 +25,6 @@ public class SignUpUser implements Task {
                 Enter.theValue(password).into(FIELD_PASSWORD),
                 Click.on(SIGNUP_BUTTON_ON_FORM)
         );
-
-        try {
-            Thread.sleep(2000);
-
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        BrowseTheWeb.as(actor).getAlert().accept();
 
     }
 

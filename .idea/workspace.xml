@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="finish test">
+    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="add file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/questions/AlertText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/SignUpUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/SignUpUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/SignUpStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/SignUpStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/signup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +108,26 @@
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Signup a new user">
+    <configuration name="Feature: signup" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
+      <option name="GLUE" value="com.demoblaze.stepdefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="prueba-tecnica-demoblaze.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Feature: signup" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Add a product (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/cart.feature" />
@@ -176,6 +201,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Signup a new user" />
+        <item itemvalue="Cucumber Java.Feature: signup" />
         <item itemvalue="Cucumber Java.Scenario: Add a product (1)" />
         <item itemvalue="Cucumber Java.Scenario: Add a product" />
       </list>
@@ -198,7 +224,8 @@
       <workItem from="1721168905002" duration="93000" />
       <workItem from="1721169009148" duration="913000" />
       <workItem from="1721170034778" duration="5475000" />
-      <workItem from="1721187637948" duration="322000" />
+      <workItem from="1721187637948" duration="664000" />
+      <workItem from="1721189299422" duration="4143000" />
     </task>
     <task id="LOCAL-00001" summary="Add proyect configuration">
       <option name="closed" value="true" />
@@ -264,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721175106531</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add file">
+      <option name="closed" value="true" />
+      <created>1721188286576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721188286576</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +325,8 @@
     <MESSAGE value="fix add products in the cart test" />
     <MESSAGE value="add test sign up" />
     <MESSAGE value="finish test" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish test" />
+    <MESSAGE value="add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
