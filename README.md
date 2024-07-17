@@ -3,27 +3,29 @@
 
 This project is a technical challenge with serenity BDD screenplay
 
-The challenge was to automate 2 use cases
+The challenge was to automate 2 use cases:
 
-## the first was:
+## The first was:
 
 Register a new user on the Product Store page.
 
-![image](https://github.com/user-attachments/assets/6914f4c2-d195-4789-8068-38f1e953c12d)
+![image](https://github.com/user-attachments/assets/d65835ce-2805-4be9-a9cc-faf0b73728f1)
+
 
 
 ## The second:
 
 Make a purchase, adding products to the cart.
 
-![image](https://github.com/user-attachments/assets/fa4e2714-83d7-49b8-932b-545720681abf)
+![image](https://github.com/user-attachments/assets/2d13d110-5711-47be-8764-496e983f8ee2)
+
 
 
 ## Tabla de Contenidos
-- [Introducción](#Introduction)
-- [Pruebas con Serenity](#pruebas-con-serenity)
+- [Introduction](#Introduction)
+- [Prerequisites to install the project](#Prerequisites-to-install-the-project)
 - [Requisitos previos](#requisitos-previos)
-- [Ejecutar las pruebas localmente](#ejecutar-las-pruebas-localmente)
+- [How to run the tests locally](#How-to-run-the-tests-locally)
 
 # Introduction
 
