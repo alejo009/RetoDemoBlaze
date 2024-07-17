@@ -32,6 +32,6 @@ public class CartStepDefinitions {
 
     @Then("he should see the added product in the cart")
     public void thenHeShouldSeeTheAddedProductInTheCart() {
-        theActorInTheSpotlight().should(seeThat(ProductWas.Added()));
+        theActorInTheSpotlight().should(seeThat(ProductWas.added()));
     }
 }

@@ -14,7 +14,7 @@ public class ProductWas implements Question<Boolean> {
         return true;
     }
 
-    public static ProductWas Added() {
+    public static ProductWas added() {
         return new ProductWas();
     }
 }
