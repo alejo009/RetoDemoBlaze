@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="add file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/questions/AlertText.java" afterDir="false" />
+    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="add validation in the alert when the user is sign up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/SignUpUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/SignUpUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/SignUpStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/SignUpStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/signup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <recent name="C:\Users\purpleRain\IdeaProjects\prueba-tecnica-demoblaze\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Signup a new user">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add a product (1)">
     <configuration name="Feature: signup" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
@@ -200,9 +198,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add a product (1)" />
         <item itemvalue="Cucumber Java.Scenario: Signup a new user" />
         <item itemvalue="Cucumber Java.Feature: signup" />
-        <item itemvalue="Cucumber Java.Scenario: Add a product (1)" />
         <item itemvalue="Cucumber Java.Scenario: Add a product" />
       </list>
     </recent_temporary>
@@ -225,7 +223,7 @@
       <workItem from="1721169009148" duration="913000" />
       <workItem from="1721170034778" duration="5475000" />
       <workItem from="1721187637948" duration="664000" />
-      <workItem from="1721189299422" duration="4143000" />
+      <workItem from="1721189299422" duration="5716000" />
     </task>
     <task id="LOCAL-00001" summary="Add proyect configuration">
       <option name="closed" value="true" />
@@ -299,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721188286576</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add validation in the alert when the user is sign up">
+      <option name="closed" value="true" />
+      <created>1721193843384</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721193843384</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,17 +332,7 @@
     <MESSAGE value="add test sign up" />
     <MESSAGE value="finish test" />
     <MESSAGE value="add file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/demoblaze/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="add validation in the alert when the user is sign up" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validation in the alert when the user is sign up" />
   </component>
 </project>
