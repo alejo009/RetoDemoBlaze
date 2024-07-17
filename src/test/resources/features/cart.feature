@@ -1,5 +1,6 @@
 #language en
 Feature: Cart Operations
+
   Scenario Outline: Add a product
     Given that "user" has opened the store
     When he select the product from section
@@ -16,4 +17,3 @@ Feature: Cart Operations
       | Laptops       | MacBook air       |
       | Monitors      | Apple monitor 24  |
       | Monitors      | ASUS Full HD      |
-

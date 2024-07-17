@@ -13,6 +13,7 @@ public class GoTo implements Task {
                 Open.url("https://www.demoblaze.com/")
         );
     }
+
     public static GoTo theUrl() {
         return Tasks.instrumented(GoTo.class);
     }

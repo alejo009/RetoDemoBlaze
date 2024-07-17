@@ -1,4 +1,5 @@
 package com.demoblaze.tasks;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
@@ -12,13 +13,13 @@ public class SignUpUser implements Task {
     private final String userName;
     private final String password;
 
-    public SignUpUser(String userName,String password){
-        this.userName=userName;
-        this.password=password;
+    public SignUpUser(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
     }
 
     @Override
-    public <T extends Actor> void performAs(T actor){
+    public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(SIGNUP_BUTTON),
                 Enter.theValue(userName).into(FIELD_USER_NAME),
@@ -26,10 +27,10 @@ public class SignUpUser implements Task {
                 Click.on(SIGNUP_BUTTON_ON_FORM)
         );
 
-        try{
+        try {
             Thread.sleep(2000);
 
-        }catch(InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
@@ -37,7 +38,7 @@ public class SignUpUser implements Task {
 
     }
 
-    public static SignUpUser signUp(String userName,String password){
-        return Tasks.instrumented(SignUpUser.class,userName,password);
+    public static SignUpUser signUp(String userName, String password) {
+        return Tasks.instrumented(SignUpUser.class, userName, password);
     }
 }

@@ -16,16 +16,16 @@ public class Add implements Task {
     WebDriver driver;
 
     @Override
-    public <T extends Actor> void performAs(T actor){
+    public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(ADD_BUTTON)
 
         );
 
-        try{
+        try {
             Thread.sleep(2000);
 
-        }catch(InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
@@ -33,7 +33,7 @@ public class Add implements Task {
         actor.attemptsTo(Click.on(CART));
     }
 
-    public static Add theProductWithThe(){
+    public static Add theProductWithThe() {
         return Tasks.instrumented(Add.class);
     }
 }

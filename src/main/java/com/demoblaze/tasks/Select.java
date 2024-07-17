@@ -16,11 +16,13 @@ public class Select implements Task {
 
     private DataTable data;
 
-    public Select(DataTable data){ this.data = data;}
+    public Select(DataTable data) {
+        this.data = data;
+    }
 
     @Override
-    public <T extends Actor> void performAs(T actor){
-        List<Map<String, String>> values= data.asMaps(String.class, String.class);
+    public <T extends Actor> void performAs(T actor) {
+        List<Map<String, String>> values = data.asMaps(String.class, String.class);
 
         actor.attemptsTo(
                 Click.on(CATEGORIES.of(String.valueOf(values.get(0).get("categories"))).resolveFor(actor)),
@@ -29,7 +31,7 @@ public class Select implements Task {
         actor.remember("product", values.get(0).get("product"));
     }
 
-    public static Select theProductWithThe(DataTable data){
-        return Tasks.instrumented(Select.class,data);
+    public static Select theProductWithThe(DataTable data) {
+        return Tasks.instrumented(Select.class, data);
     }
 }
