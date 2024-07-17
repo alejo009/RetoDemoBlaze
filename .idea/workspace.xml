@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="add test sign up">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/utils/RandomStringGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/runners/SignUpRunner.java" afterDir="false" />
+    <list default="true" id="dadc38fb-d126-4d53-a8aa-77e1937f3082" name="Changes" comment="finish test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/questions/ProductWas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/questions/ProductWas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/GoTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/GoTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/Select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/SignUpUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/tasks/SignUpUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/ProductDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/ProductDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/ProductListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/ProductListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoblaze/ui/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/runners/CartRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/runners/CartRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/CartStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/CartStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/CommonStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/CommonStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/SignUpStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoblaze/stepdefinitions/SignUpStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/signup.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +197,8 @@
       <workItem from="1721167401542" duration="1151000" />
       <workItem from="1721168905002" duration="93000" />
       <workItem from="1721169009148" duration="913000" />
-      <workItem from="1721170034778" duration="4909000" />
+      <workItem from="1721170034778" duration="5475000" />
+      <workItem from="1721187637948" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Add proyect configuration">
       <option name="closed" value="true" />
@@ -275,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721164187394</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finish test">
+      <option name="closed" value="true" />
+      <created>1721175106530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721175106531</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +289,8 @@
     <MESSAGE value="finished add products in the cart test" />
     <MESSAGE value="fix add products in the cart test" />
     <MESSAGE value="add test sign up" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test sign up" />
+    <MESSAGE value="finish test" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
