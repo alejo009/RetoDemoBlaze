@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = {"com.demoblaze.stepdefinitions"},
-        features = "src/test/resources/features/cart.feature",
+        features = "src/test/resources/features/signup.feature",
         tags = "",
         snippets = CucumberOptions.SnippetType.CAMELCASE
-
 )
-public class CartRunner {
+public class SignUpRunner {
+
 }
