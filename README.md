@@ -11,8 +11,6 @@ Register a new user on the Product Store page.
 
 ![image](https://github.com/user-attachments/assets/d65835ce-2805-4be9-a9cc-faf0b73728f1)
 
-
-
 ## The second:
 
 Make a purchase, adding products to the cart.
@@ -24,7 +22,6 @@ Make a purchase, adding products to the cart.
 ## Tabla de Contenidos
 - [Introduction](#Introduction)
 - [Prerequisites to install the project](#Prerequisites-to-install-the-project)
-- [Requisitos previos](#requisitos-previos)
 - [How to run the tests locally](#How-to-run-the-tests-locally)
 
 # Introduction
